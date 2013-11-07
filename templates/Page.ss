@@ -57,16 +57,16 @@
                 <div class="row">
                     <div class="span12">
                         <div class="logo">
-                            <a href="$BaseHref"><img src="$ThemeDir/img/logo.png" alt="Blogidy Blogging Template"></a>
+                            <a href="$BaseHref"><img src="$ThemeDir/img/logo.png" alt="InAllSrsns.com"></a>
                         </div>
                         <div class="top-content">
                             <nav class="menu">
                                 <ul>
                                     <li><a href="$BaseHref">Home</a>
                                         <ul>
-                                            <li><a href="post.html">Single Post</a></li>
-                                            <li><a href="gallery-post.html">Gallery Post</a></li>
-                                            <li><a href="audio-post.html">Audio Post</a></li>
+                                            <% loop $Menu(1) %>
+                                                <li class="$LinkingMode"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
+                                            <% end_loop %>
                                         </ul>
                                     </li>
                                     <li><a href="archive.html">Archive</a></li>

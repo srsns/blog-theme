@@ -40,11 +40,11 @@
                                     <div id="twitter"></div>
                                 </div>
                             </div>
-                            <div class="widget span4">
-                                <h3>Flickr</h3>
-                                    <div class="widget-content">
-                                        <% include MenuBadge %>
-                                    </div>
+                        </div>
+                        <div class="widget span4">
+                            <h3>Flickr</h3>
+                            <div class="widget-content">
+                                <% include MenuBadge %>
                             </div>
                         </div>
                     </div>

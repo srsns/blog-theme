@@ -39,7 +39,7 @@
                             <h3>Twitter</h3>
                             <div class="widget-content">
                                 <div class="twitter-container">
-                                    <div id="tweet"></div>
+                                    <div id="twitter"></div>
                                 </div>
                             </div>
                         </div>

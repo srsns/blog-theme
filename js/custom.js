@@ -255,7 +255,7 @@ jQuery(document).ready(function()
                 filter: function(t){ return ! /^@\+w/.test(t.tweet_raw_text); },
                 loading_text: '<p class="preLoading"></p>',
                 refresh_interval: 60,
-                template: '{avatar}{user}{time}<br />{text}{join}'
+                template: '{user}{time}<br />{text}{join}'
             });
 
 /*

@@ -39,7 +39,7 @@
                             <h3>Twitter</h3>
                             <div class="widget-content">
                                 <div class="twitter-container">
-                                    <div id="twitter"></div>
+                                    <div id="tweet"></div>
                                 </div>
                             </div>
                         </div>
@@ -65,14 +65,9 @@
                             <nav class="menu">
                                 <ul>
                                     <li><a href="$BaseHref">Home</a>
-                                        <ul>
-                                            <% loop $Menu(1) %>
-                                                <li class="$LinkingMode"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
-                                            <% end_loop %>
-                                        </ul>
-                                    </li>
-                                    <li><a href="archive.html">Archive</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <% loop $Menu(1) %>
+                                        <li class="$LinkingMode"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
+                                    <% end_loop %>
                                 </ul>
                             </nav>
                             <div class="search">

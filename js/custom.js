@@ -250,12 +250,12 @@ jQuery(document).ready(function()
  			   
             jQuery("#twitter").tweet({
                 modpath: "/mysite/thirdparty/twitter/",
-                count: 4,
+                count: 3,
                 username: "debsthefuzz",
                 filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
                 loading_text: '<p class="preLoading"></p>',
                 refresh_interval: 60,
-                template: '{user}{time} || {text}{join}'
+                template: '{user}{time}<br />{text}{join}'
             });
 
 /*

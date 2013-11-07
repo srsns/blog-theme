@@ -23,15 +23,17 @@
         <section class="top-sidebar">
             <div class="container">
                 <div class="row">
-                    <div class="widget cats-widget span4">
-                        <h3>Categories</h3>
-                        <div class="widget-content">
-                            <ul>
-                                <li><a href="#">Technology</a></li>
-                                <li><a href="#">Web Design</a></li>
-                                <li><a href="#">Miscellaneous</a></li>
-                                <li><a href="#">General / Off Topic</a></li>
-                            </ul>
+                    <div class="widget cats-widget">
+                        <div class="widget span4">
+                            <h3>Categories</h3>
+                            <div class="widget-content">
+                                <ul>
+                                    <li><a href="#">Technology</a></li>
+                                    <li><a href="#">Web Design</a></li>
+                                    <li><a href="#">Miscellaneous</a></li>
+                                    <li><a href="#">General / Off Topic</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="widget span4">
                             <h3>Twitter</h3>

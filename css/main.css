@@ -1,29 +1,6 @@
-/*
-	Blogify HTML5 Template
- 	Author : suitstheme
- 	Main Theme Color: #38b49d
-*/
-
-
- /* -------------------------------------------------------------- 
- 	Contents
- 	1 - Reset
- 	2 - Main Styles
- 	3 - Sidebar
- 	4 - Navigation And Logo
- 	5 - Posts
- 	6 - Single Post
- 	7 - Comments
- 	8 - Footer
- 	9 - Responsive Fix
-  -------------------------------------------------------------- */
-
-
-
-
- /* -------------------------------------------------------------- 
-   0 - Wordpress Styles
-  -------------------------------------------------------------- */
+/* Green theme: #38b49d
+   Coral theme: #e95454 
+ */
 
 /** wordpress default styles **/
 .alignnone {
@@ -246,7 +223,7 @@ a img.aligncenter {
 			Main Theme Font Color
 	*/
 	a:hover , span.custom , .tweet a , .accordion ul li:hover:before  , nav.menu ul li a:hover  ,  nav.menu ul ul li a:hover{
-			color: #38b49d !important;
+			color: #e95454 !important;
 	}
 
 
@@ -275,8 +252,8 @@ a img.aligncenter {
 
   /* Main buttons color */
   .blog-pagination .wrap > a , .top-pagination a , .submit-comment , .comment-content .reply:hover , .share-box .toggle-share-box:hover , .share-box .toggle-share-box.active , .readmore a , .blog-pagination .wrap > a , .blog-pagination ul li a {
-     background-color: #38b49d;
-     border-bottom: 2px solid #2f9b87;
+     background-color: #e95454;
+     border-bottom: 2px solid #e83744;
 
   }
 
@@ -284,17 +261,17 @@ a img.aligncenter {
 			Main Theme Background Color
 	*/
   header .toggleSidebar  , span.highlight , .single-post .post-format-quote .wrapper   {
-    background-color: #38b49d;
+    background-color: #e95454;
   }
   .post-meta span.date:hover , .post-meta span.comments:hover , .comment-content h4 a:hover {
-    color: #38b49d !important;
+    color: #e95454 !important;
   }
 
 	/*
 			Main Theme Border Color
 	*/
   blockquote {
-    border-left-color: #38b49d;
+    border-left-color: #e95454;
   }
 
 
@@ -963,7 +940,7 @@ span.highlight {
   .mejs-controls .mejs-time-rail .mejs-time-current {
     
     border-top: 1px solid #5BBBAD;
-    background: #38b49d;
+    background: #e95454;
     background-image: linear-gradient(bottom, rgb(51,169,149) 2%, rgb(45,150,134) 51%);
     background-image: -o-linear-gradient(bottom, rgb(51,169,149) 2%, rgb(45,150,134) 51%);
     background-image: -moz-linear-gradient(bottom, rgb(51,169,149) 2%, rgb(45,150,134) 51%);
@@ -1037,7 +1014,7 @@ span.highlight {
   .mejs-horizontal-volume-current {
     
     border-top: 1px solid #5BBBAD;
-    background: #38b49d;
+    background: #e95454;
     background-image: linear-gradient(bottom, rgb(51,169,149) 2%, rgb(45,150,134) 51%);
     background-image: -o-linear-gradient(bottom, rgb(51,169,149) 2%, rgb(45,150,134) 51%);
     background-image: -moz-linear-gradient(bottom, rgb(51,169,149) 2%, rgb(45,150,134) 51%);

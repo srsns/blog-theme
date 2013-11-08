@@ -64,7 +64,8 @@
                         <div class="top-content">
                             <nav class="menu">
                                 <ul>
-                                    <li><a href="$BaseHref">Home</a>
+                                    <li class="toggle"><a href="#">Menu</a></li>
+                                    <li><a href="$BaseHref">Home</a></li>
                                     <% loop $Menu(1) %>
                                         <li class="$LinkingMode"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
                                     <% end_loop %>

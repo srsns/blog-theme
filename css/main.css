@@ -2,7 +2,6 @@
    Coral theme: #e95454 
  */
 
-/** wordpress default styles **/
 .alignnone {
     margin: 5px 20px 20px 0;
 }
@@ -46,42 +45,6 @@ a img.aligncenter {
     display: block;
     margin-left: auto;
     margin-right: auto
-}
-
-.wp-caption {
-    background: #fff;
-    border: 1px solid #f0f0f0;
-    max-width: 96%; /* Image does not overflow the content area */
-    padding: 5px 3px 10px;
-    text-align: center;
-}
-
-.wp-caption.alignnone {
-    margin: 5px 20px 20px 0;
-}
-
-.wp-caption.alignleft {
-    margin: 5px 20px 20px 0;
-}
-
-.wp-caption.alignright {
-    margin: 5px 0 20px 20px;
-}
-
-.wp-caption img {
-    border: 0 none;
-    height: auto;
-    margin: 0;
-    max-width: 98.5%;
-    padding: 0;
-    width: auto;
-}
-
-.wp-caption p.wp-caption-text {
-    font-size: 11px;
-    line-height: 17px;
-    margin: 0;
-    padding: 0 4px 5px;
 }
 
 .bypostauthor cite span {
@@ -527,7 +490,7 @@ a img.aligncenter {
   /* toggle menu */
   nav.menu li.toggle a {
     color: #fff !important;
-    background: url(img/toggle.png) top right no-repeat;
+    background: url(../img/toggle.png) top right no-repeat;
   }
 
 
@@ -639,9 +602,33 @@ section.blog > .container > .row > .single-post:last-child {
 
 
 /* Post Image */
-section.blog .single-post > .post-image {
+.post-image {
     border-radius: 4px;
     overflow: hidden;
+    margin: 5px auto 5px auto !important;
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.post-pic {
+    margin: 5px auto 5px auto !important;
+    max-width: 100% !important;
+    height: auto;
+    display: block;
+}
+
+em {
+    font-family: 'Lato', san-serif;
+    font-size: 10pt;    
 }
 
 /* Post content */
@@ -1284,19 +1271,23 @@ span.highlight {
         
     }
 
-    .imageFloat {
+    .imageFloatL {
       float: left;
       margin-right: 25px;
       margin-bottom: 20px;
     }
 
-
+    .imageFloatR {
+      float: right;
+      margin-right: 25px;
+      margin-bottom: 20px;
+    }
 
     .single-post-main-content {
       padding-bottom: 35px;
       border-bottom: 2px solid #e9e9e9;
       clear: both;
-      float: left;
+     /* float: left; causes responsiveness problems?*/
     }
 
     .secondary-content-box {
@@ -1655,6 +1646,9 @@ span.highlight {
     .social-icons a.facebook {
       background-image: url(../img/facebook.png);
     }
+    .social-icons a.goodreads {
+      background-image: url(../img/goodreads.png);
+    }
     .social-icons a.twitter {
       background-image: url(../img/twitter.png);
     }
@@ -1692,6 +1686,10 @@ span.highlight {
 
     background-color: #d94e37;
 
+    }
+
+    .social-icons a.goodreads:hover {
+    background-color: #533518;
     }
     .social-icons a.facebook:hover {
 

@@ -259,7 +259,7 @@ jQuery(document).ready(function()
                 template: '{user}{time}<br />{text}{join}'
             });
 
-/*
+
             var shr = document.createElement('script');
             shr.setAttribute('data-cfasync', 'false');
             shr.src = '//dsms0mj1bbhn4.cloudfront.net/assets/pub/shareaholic.js';
@@ -272,5 +272,5 @@ jQuery(document).ready(function()
             };
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(shr, s);
-*/
+
 });

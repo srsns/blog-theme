@@ -98,7 +98,9 @@
                     <a class="flickr" href="#"></a>
                     <a class="pinterest" href="#"></a>
                     <a class="tumblr" href="#"></a>
+                    <a class="google" href="#"></a>
                     <a class="youtube" href="#"></a>
+                    <a class="goodreads" href="#"</a>
                 </div>
             </div>
         </footer>

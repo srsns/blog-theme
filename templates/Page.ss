@@ -71,8 +71,9 @@
                                     <% end_loop %>
                                 </ul>
                             </nav>
+                            <a href="#" class="toggleSidebar"></a>
                             <div class="search">
-                                <a href="#" class="toggleSidebar"></a>
+                                $SearchForm
                             </div>
                         </div>
                     </div>
@@ -100,7 +101,7 @@
                     <a class="tumblr" href="#"></a>
                     <a class="google" href="#"></a>
                     <a class="youtube" href="#"></a>
-                    <a class="goodreads" href="#"</a>
+                    <a class="goodreads" href="#"></a>
                 </div>
             </div>
         </footer>

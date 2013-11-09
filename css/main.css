@@ -502,7 +502,7 @@ a img.aligncenter {
 
   }
 
-  header form.top-search {
+  header fieldset {
 	  	background: #f2f2f2;
 	  	border-radius: 3px;
 	  	-webkit-border-radius: 3px;
@@ -512,12 +512,12 @@ a img.aligncenter {
 	  	height: 38px;
   }
 
-  header form.top-search input.s:focus , header form.top-search input.s:active {
+  header form.top-search input[text="text"]:focus , header form.top-search input[type="text"]:active {
 
       box-shadow: inset 0px 0px 1px #c1c0c0;
   }
 
-   header  form.top-search input.s {
+   header  input[type="text"] {
    			background: none;
    			border: none;
    			position: relative;
@@ -532,7 +532,7 @@ a img.aligncenter {
 
    }
 
-   header  form.top-search input.submit {
+   header  input[type="submit"] {
    	position: absolute;
    	top: 10px;
    	right: 15px;
@@ -541,8 +541,11 @@ a img.aligncenter {
    	background: url(../img/search.png) no-repeat;
    	border: none;
    	outline: none;
+    padding-top: 17px;
+    overflow: hidden;
    }
 
+    
 
 
   /* toggle button */
@@ -555,6 +558,7 @@ a img.aligncenter {
       height: 38px;
       width: 38px;
       border-radius: 3px;
+      margin-top: 10px;
   }
   header .toggleSidebar.toggleUp {
       background-image: url(../img/toggle-up.png);

@@ -59,18 +59,31 @@ a img.aligncenter {
 
 
 
+
+
  /* -------------------------------------------------------------- 
  	1 - Reset
   -------------------------------------------------------------- */
-  	ul , .gallery-caption , footer p , li a ,  p , span , article 
-  	, nav , blockquote , dl ,  dt , dd , td , tr , th , code , caption , figcaption , input , label , textarea 
+  	ul , .gallery-caption , li a ,  p , span , article, 
+    dl ,  dt , dd , td , tr , th , code , caption , figcaption 
 	{
-			font-family: 'Lato' , sans-serif;
+			font-family: 'Gentium Book Basic' , sans-serif;
 			font-weight: 400;
 			color: #636467;
 			font-size: 16px;
 
 	}
+    
+    nav, input, label, textarea, blockquote, footer p {
+            font-family: 'Lato', sans-serif;
+            color: #636467;
+            font-size: 16px;
+            font-weight: 400;
+    }
+
+    nav.menu ul li a, span.date, span.comments, div.widget.span4 div.widget-content ul li a {
+        font-family: 'Lato', sans-serif;
+    }
 
   .author-bio p , .comments p , .comments p a ,  {
     line-height: 26px;
@@ -133,7 +146,7 @@ a img.aligncenter {
 	h6 , h6 a , h6 span 
 	{
 		color: #3c3c3c;
-		font-family: "Lato" , sans-serif;
+		font-family: "Raleway" , sans-serif;
 		font-weight: 700;
 		text-decoration: none;
 		padding: 0px;
@@ -621,6 +634,7 @@ section.blog > .container > .row > .single-post:last-child {
     max-width: 96%; /* Image does not overflow the content area */
     padding: 5px 3px 10px;
     text-align: center;
+    font-size: 10pt;
 }
 
 .post-pic {
@@ -631,8 +645,12 @@ section.blog > .container > .row > .single-post:last-child {
 }
 
 em {
-    font-family: 'Lato', san-serif;
-    font-size: 10pt;    
+    font-family: 'Merriweather', san-serif;
+    font-size: 10pt;
+}
+
+.caption em {
+    font-size: 8pt !important;
 }
 
 /* Post content */
@@ -1796,9 +1814,7 @@ span.highlight {
       clear: both;
       width: 100%;
       margin-bottom: 10px;
-
-      
-    }
+     }
 
     nav.menu > ul {
       border-radius: 3px !important;

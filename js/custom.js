@@ -250,7 +250,7 @@ jQuery(document).ready(function()
  			   
             jQuery("#twitter").tweet({
                 modpath: "/mysite/thirdparty/twitter/",
-                count: 3,
+                count: 2,
                 fetch: 10,
                 username: "debsthefuzz",
                 filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },

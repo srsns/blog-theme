@@ -672,6 +672,43 @@ section.blog .single-post > .post-content .post-inner-content {
   -webkit-border-radius: 0 0 6px 6px;
 }
 
+/* box outs and tips */
+
+div.boxoutRight {
+    float: right;
+    max-width: 35%;
+    margin: 10px 0px 10px 20px;
+}
+
+div.boxoutLeft {
+    max-width: 35%;
+    margin: 10px 20px 10px 0px;
+    float: left;
+}
+
+.boxoutLeft h3, .boxoutRight h3 {
+    color: #e95454;
+    margin: 5px 5px 5px 5px;
+}
+
+.boxoutRight h3 {
+    text-align: right;
+}
+
+.boxoutLeft p, .boxoutRight p {
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #e95454;
+}
+
+.boxoutLeft:hover p, .boxoutRight:hover p{
+    background: #ffffff;
+    transition: 0.3s;
+    color: #e95454;
+}
 
 .single-post .post-inner-content .main-content p , 
 .single-post .post-inner-content .main-content a,

@@ -28,10 +28,11 @@
                             <h3>Categories</h3>
                             <div class="widget-content">
                                 <ul>
-                                    <li><a href="#">Technology</a></li>
-                                    <li><a href="#">Web Design</a></li>
-                                    <li><a href="#">Miscellaneous</a></li>
-                                    <li><a href="#">General / Off Topic</a></li>
+                                    <li><a href="$BaseHref/home/tag/Video+Games">Video Games</a></li>
+                                    <li><a href="$BaseHref/home/tag/Technology">Technology</a></li>
+                                    <li><a href="$BaseHref/home/tag/Reviews">Reviews</a></li>
+                                    <li><a href="$BaseHref/home/tag/Writing">Writing</a></li>
+                                    <li><a href="$BaseHref/home/tag/Personal">Personal</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -93,15 +94,13 @@
                 </div>
                 <div class="divider-half"></div>
                 <div class="social-icons">
-                    <a class="facebook" href="#"></a>
-                    <a class="twitter" href="#"></a>
-                    <a class="linkedin" href="#"></a>
-                    <a class="flickr" href="#"></a>
-                    <a class="pinterest" href="#"></a>
-                    <a class="tumblr" href="#"></a>
-                    <a class="google" href="#"></a>
-                    <a class="youtube" href="#"></a>
-                    <a class="goodreads" href="#"></a>
+                    <a class="twitter" href="https://twitter.com/debsthefuzz" target="_blank"></a>
+                    <a class="linkedin" href="http://www.linkedin.com/profile/view?id=74564575" target="_blank"></a>
+                    <a class="flickr" href="http://www.flickr.com/photos/srsns/" target="_blank"></a>
+                    <a class="pinterest" href="http://www.pinterest.com/srsns" target="_blank"></a>
+                    <a class="google" href="https://www.google.com/+DebsSrsns" target="_blank"></a>
+                    <a class="youtube" href="http://www.youtube.com/user/DebSrsns" target="_blank"></a>
+                    <a class="goodreads" href="https://www.goodreads.com/user/show/17966694-debs" target="_blank"></a>
                 </div>
             </div>
         </footer>

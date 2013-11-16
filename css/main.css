@@ -67,76 +67,82 @@ a img.aligncenter {
   	ul , .gallery-caption , li a ,  p , span , article, 
     dl ,  dt , dd , td , tr , th , code , caption , figcaption 
 	{
-			font-family: 'Gentium Book Basic' , sans-serif;
-			font-weight: 400;
-			color: #636467;
-			font-size: 16px;
+		font-family: 'Gentium Book Basic' , sans-serif;
+		font-weight: 400;
+		color: #3a3a3a;
+		font-size: 16px;
 
 	}
+
+    p {
+        margin: 0px 0px 30px 0px;
+    }
     
     nav, input, label, textarea, blockquote, footer p {
-            font-family: 'Lato', sans-serif;
-            color: #636467;
-            font-size: 16px;
-            font-weight: 400;
+        font-family: 'Lato', sans-serif;
+        color: #636467;
+        font-size: 16px;
+        font-weight: 400;
     }
 
     nav.menu ul li a, span.date, span.comments, div.widget.span4 div.widget-content ul li a {
         font-family: 'Lato', sans-serif;
     }
 
-  .author-bio p , .comments p , .comments p a ,  {
-    line-height: 26px;
-  }
+    .author-bio p , .comments p , .comments p a ,  {
+        line-height: 26px;
+    }
 
 	input::-webkit-input-placeholder , input:-moz-placeholder{
 		color: #c1c0c0 !important;
 	}	
 
 
-  .light-font , blockquote , .post-share .tags a , .single-comment .comment-content p , .comments span.comment-date , 
-  .accordion a , .accordion p , .accordion ul li:before 
-  {
-    color: #c1c0c0;
-  }
+    .post-share .tags a , .single-comment .comment-content p , .comments span.comment-date , 
+    .accordion a , .accordion p , .accordion ul li:before 
+    {
+        color: #c1c0c0;
+    }
 
-  input , textarea {
-    color: #A5A3A3 !important;
-    transition: box-shadow 0.3s;
-  }
+    .light-font, blockquote {
+        color: #7c7c7c;
+    }
 
-
+    input , textarea {
+        color: #A5A3A3 !important;
+        transition: box-shadow 0.3s;
+    }
 
 	a:focus , a:active {
 		outline: none !important;
-    text-decoration: none !important;
+        text-decoration: none !important;
 
 	}
 
-  a {
-    transition: background-color 0.3s;
-  }
+    a {
+        transition: background-color 0.3s;
+    }
 
 	input {
-    margin: 0px;
+        margin: 0px;
  	}
 
-  .margin {
-    float: left;
-    clear: both;
-    width: 100%;
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-  .margin-half {
-    float: left;
-    clear: both;
-    width: 100%;
-    display: block;
-    margin-top: 8px;
-    margin-bottom: 8px;
-  }
+    .margin {
+        float: left;
+        clear: both;
+        width: 100%;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .margin-half {
+        float: left;
+        clear: both;
+        width: 100%;
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
 
  	h1 , h1 a , h1 span ,
 	h2 , h2 a , h2 span , 
@@ -154,23 +160,21 @@ a img.aligncenter {
 		line-height: 100%;
 	}
 
-  .author-bio h1 , .author-bio h1 a , .author-bio h1 span , 
-  .author-bio h2 , .author-bio h2 a , .author-bio h2 span , 
-  .author-bio h3 , .author-bio h3 a , .author-bio h3 span ,
-  .author-bio h4 , .author-bio h4 a , .author-bio h4 span ,
-  .author-bio h5 , .author-bio h5 a , .author-bio h5 span , 
-  .author-bio h6 , .author-bio h6 a , .author-bio h6 span ,
-  .comments h1 , .comments h1 a , .comments h1 span ,
-  .comments h2 , .comments h2 a , .comments h2 span , 
-  .comments h3 , .comments h3 a , .comments h3 span , 
-  .comments h4 , .comments h4 a , .comments h4 span , 
-  .comments h5 , .comments h5 a , .comments h5 span , 
-  .comments h6 , .comments h6 a , .comments h6 span , .comments-form h2
-  {
-    color: #636467 !important;
-  }
-
- 
+    .author-bio h1 , .author-bio h1 a , .author-bio h1 span , 
+    .author-bio h2 , .author-bio h2 a , .author-bio h2 span , 
+    .author-bio h3 , .author-bio h3 a , .author-bio h3 span ,
+    .author-bio h4 , .author-bio h4 a , .author-bio h4 span ,
+    .author-bio h5 , .author-bio h5 a , .author-bio h5 span , 
+    .author-bio h6 , .author-bio h6 a , .author-bio h6 span ,
+    .comments h1 , .comments h1 a , .comments h1 span ,
+    .comments h2 , .comments h2 a , .comments h2 span , 
+    .comments h3 , .comments h3 a , .comments h3 span , 
+    .comments h4 , .comments h4 a , .comments h4 span , 
+    .comments h5 , .comments h5 a , .comments h5 span , 
+    .comments h6 , .comments h6 a , .comments h6 span , .comments-form h2
+    {
+        color: #636467 !important;
+    }
 
 	h1 , h1 a {
 	font-size: 36px !important;
@@ -190,6 +194,14 @@ a img.aligncenter {
 	h6 , h6 a {
 	font-size: 12px !important;
 	}
+
+    div.main-content.single-post-main-content h3,
+    div.main-content.single-post-main-content h2,
+    div.main-content.single-post-main-content h4
+    {
+        font-family: "Lato", sans-serif;
+        marging-bottom: 25px;
+    }
 
  /* -------------------------------------------------------------- 
  	2 - Main Styles
@@ -622,7 +634,7 @@ section.blog > .container > .row > .single-post:last-child {
 .post-image {
     border-radius: 4px;
     overflow: hidden;
-    margin: 5px auto 5px auto !important;
+    margin-top: 5px !important;
     max-width: 100% !important;
     height: auto;
     display: block;
@@ -1321,7 +1333,7 @@ span.highlight {
     -------------------------------------------------------------- */
 
     blockquote , .blockquote {
-        float: left;
+        /* float: left; */
         clear: both;
         width: 90%;
         padding-left: 10%;
@@ -2215,5 +2227,50 @@ span.highlight {
 @media (min-width: 980px) {
  
 }
+/*
+.post-format-video {
+    border-radius: 4px;
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
 
-
+.wrapper .post-format-video iframe,
+.wrapper .post-format-video object {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px;
+    padding: 0px;
+    outline: none !important;
+    border-radius: 4px;
+    position: relative;
+}
+*/
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+.span12 {
+    margin-left: 0px !important;
+    /* centers post content properly */
+}

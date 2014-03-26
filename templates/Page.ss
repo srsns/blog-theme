@@ -97,7 +97,7 @@
                 </div>
                 <div class="divider-half"></div>
                 <div class="social-icons">
-                    <a class="twitter" href="https://twitter.com/debsthefuzz" target="_blank"></a>
+                    <a class="twitter" href="https://twitter.com/DebsSrsns" target="_blank"></a>
                     <a class="linkedin" href="http://www.linkedin.com/profile/view?id=74564575" target="_blank"></a>
                     <a class="flickr" href="http://www.flickr.com/photos/srsns/" target="_blank"></a>
                     <a class="pinterest" href="http://www.pinterest.com/srsns" target="_blank"></a>
@@ -118,5 +118,14 @@
         <script type="text/javascript" src="$ThemeDir/js/jquery-ui-1.10.3.custom.min.js"></script>
         <script type="text/javascript" src="$BaseUrl/mysite/thirdparty/twitter/jquery.tweet.js"></script>
         <script type="text/javascript" src="$ThemeDir/js/custom.js"></script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-29317492-1', 'inallsrsns.com');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>

@@ -252,7 +252,7 @@ jQuery(document).ready(function()
                 modpath: "/mysite/thirdparty/twitter/",
                 count: 2,
                 fetch: 10,
-                username: "debsthefuzz",
+                username: "DebsSrsns",
                 filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
                 loading_text: '<p class="preLoading"></p>',
                 refresh_interval: 60,
